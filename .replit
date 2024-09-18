@@ -1,9 +1,9 @@
 run = "python app.py"
 entrypoint = "README.md"
-modules = ["python-3.10:v25-20230920-d4ad2e4"]
+modules = ["web", "python-3.10", "nix"]
 
 [nix]
-channel = "stable-23_11"
+channel = "stable-24_05"
 
 [[ports]]
 localPort = 5000
